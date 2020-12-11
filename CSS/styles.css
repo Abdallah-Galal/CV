@@ -7,27 +7,55 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  color: #66BFBF;
+  font-size: 5.6rem;
   font-family: 'Sacramento', cursive;
+  line-height: 2rem;
+  margin: 50px auto 0 auto;
 }
 
 h2 {
+  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.48rem;
+  font-weight: normal;
+  line-height: 2;
 }
 
 h3{
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
 }
 .top-container{
   background-color: #e8ffff;
   position: relative;
   padding-top: 100px;
 }
-.middle-container{
+.skill-row{
+  line-height: 2;
+  margin: 200px auto 200px auto;
+  text-align: left;
+  width: 50%;
 }
-.bottom-container{
+.sap-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
-
+.code-image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.sap-text-description{
+  clear: left;
+}
+.code-text-description{
+  clear: right;
+}
 .top-cloud{
   position: absolute;
   top: 50px;
